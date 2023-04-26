@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64315F1529F5F82600D3C4CF /* OutputModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64315F1429F5F82600D3C4CF /* OutputModel.swift */; };
+		64315F1729F5F9C900D3C4CF /* OutputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64315F1629F5F9C900D3C4CF /* OutputViewModel.swift */; };
+		646305FD29EF753200CECD0F /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646305FC29EF753200CECD0F /* InputView.swift */; };
+		646305FF29EF759400CECD0F /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646305FE29EF759400CECD0F /* ChartsView.swift */; };
+		6463060129EF780300CECD0F /* ZonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6463060029EF780300CECD0F /* ZonesView.swift */; };
+		6463060329EF785D00CECD0F /* StephView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6463060229EF785D00CECD0F /* StephView.swift */; };
+		6468778029F926960094921C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468777F29F926960094921C /* SettingsView.swift */; };
+		648BC1E329EE21A100AAA919 /* basketball_stat_trackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648BC1E229EE21A100AAA919 /* basketball_stat_trackerApp.swift */; };
+		648BC1E529EE21A100AAA919 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648BC1E429EE21A100AAA919 /* ContentView.swift */; };
+		648BC1E729EE21A200AAA919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648BC1E629EE21A200AAA919 /* Assets.xcassets */; };
+		648BC1EA29EE21A200AAA919 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648BC1E929EE21A200AAA919 /* Preview Assets.xcassets */; };
+		64C39C1529F4C8AB00308FE1 /* InputModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64C39C1329F4C8AB00308FE1 /* InputModel.xcdatamodeld */; };
+		64C39C1929F4CAFC00308FE1 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C39C1829F4CAFC00308FE1 /* PersistenceController.swift */; };
+		64D9319229F86CC7005C5FDF /* ShaqView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D9319129F86CC7005C5FDF /* ShaqView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64315F1429F5F82600D3C4CF /* OutputModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputModel.swift; sourceTree = "<group>"; };
+		64315F1629F5F9C900D3C4CF /* OutputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputViewModel.swift; sourceTree = "<group>"; };
+		646305FC29EF753200CECD0F /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		646305FE29EF759400CECD0F /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
+		6463060029EF780300CECD0F /* ZonesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZonesView.swift; sourceTree = "<group>"; };
+		6463060229EF785D00CECD0F /* StephView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StephView.swift; sourceTree = "<group>"; };
+		6468777F29F926960094921C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		648BC1DF29EE21A100AAA919 /* basketball stat tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "basketball stat tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		648BC1E229EE21A100AAA919 /* basketball_stat_trackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basketball_stat_trackerApp.swift; sourceTree = "<group>"; };
+		648BC1E429EE21A100AAA919 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		648BC1E629EE21A200AAA919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		648BC1E929EE21A200AAA919 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64C39C1429F4C8AB00308FE1 /* InputModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InputModel.xcdatamodel; sourceTree = "<group>"; };
+		64C39C1829F4CAFC00308FE1 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		64D9319129F86CC7005C5FDF /* ShaqView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaqView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		648BC1DC29EE21A100AAA919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64104F8529F9B25700CB4978 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				64315F1429F5F82600D3C4CF /* OutputModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		64104F8629F9B26900CB4978 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				64315F1629F5F9C900D3C4CF /* OutputViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		64104F8829F9B5D800CB4978 /* Detailed Views */ = {
+			isa = PBXGroup;
+			children = (
+				646305FC29EF753200CECD0F /* InputView.swift */,
+				646305FE29EF759400CECD0F /* ChartsView.swift */,
+				6463060029EF780300CECD0F /* ZonesView.swift */,
+				64D9319129F86CC7005C5FDF /* ShaqView.swift */,
+				6463060229EF785D00CECD0F /* StephView.swift */,
+				6468777F29F926960094921C /* SettingsView.swift */,
+			);
+			path = "Detailed Views";
+			sourceTree = "<group>";
+		};
+		6468778129F92CDA0094921C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				64C39C1329F4C8AB00308FE1 /* InputModel.xcdatamodeld */,
+				64C39C1829F4CAFC00308FE1 /* PersistenceController.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		648BC1D629EE21A100AAA919 = {
+			isa = PBXGroup;
+			children = (
+				648BC1E129EE21A100AAA919 /* basketball stat tracker */,
+				648BC1E029EE21A100AAA919 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		648BC1E029EE21A100AAA919 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				648BC1DF29EE21A100AAA919 /* basketball stat tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		648BC1E129EE21A100AAA919 /* basketball stat tracker */ = {
+			isa = PBXGroup;
+			children = (
+				6468778129F92CDA0094921C /* CoreData */,
+				64104F8529F9B25700CB4978 /* Models */,
+				64104F8629F9B26900CB4978 /* ViewModels */,
+				648BC1E229EE21A100AAA919 /* basketball_stat_trackerApp.swift */,
+				648BC1E429EE21A100AAA919 /* ContentView.swift */,
+				64104F8829F9B5D800CB4978 /* Detailed Views */,
+				648BC1E629EE21A200AAA919 /* Assets.xcassets */,
+				648BC1E829EE21A200AAA919 /* Preview Content */,
+			);
+			path = "basketball stat tracker";
+			sourceTree = "<group>";
+		};
+		648BC1E829EE21A200AAA919 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				648BC1E929EE21A200AAA919 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		648BC1DE29EE21A100AAA919 /* basketball stat tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 648BC1ED29EE21A200AAA919 /* Build configuration list for PBXNativeTarget "basketball stat tracker" */;
+			buildPhases = (
+				648BC1DB29EE21A100AAA919 /* Sources */,
+				648BC1DC29EE21A100AAA919 /* Frameworks */,
+				648BC1DD29EE21A100AAA919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "basketball stat tracker";
+			productName = "basketball stat tracker";
+			productReference = 648BC1DF29EE21A100AAA919 /* basketball stat tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		648BC1D729EE21A100AAA919 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					648BC1DE29EE21A100AAA919 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 648BC1DA29EE21A100AAA919 /* Build configuration list for PBXProject "basketball stat tracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 648BC1D629EE21A100AAA919;
+			productRefGroup = 648BC1E029EE21A100AAA919 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				648BC1DE29EE21A100AAA919 /* basketball stat tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		648BC1DD29EE21A100AAA919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648BC1EA29EE21A200AAA919 /* Preview Assets.xcassets in Resources */,
+				648BC1E729EE21A200AAA919 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		648BC1DB29EE21A100AAA919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C39C1529F4C8AB00308FE1 /* InputModel.xcdatamodeld in Sources */,
+				646305FD29EF753200CECD0F /* InputView.swift in Sources */,
+				64315F1529F5F82600D3C4CF /* OutputModel.swift in Sources */,
+				648BC1E529EE21A100AAA919 /* ContentView.swift in Sources */,
+				648BC1E329EE21A100AAA919 /* basketball_stat_trackerApp.swift in Sources */,
+				6463060329EF785D00CECD0F /* StephView.swift in Sources */,
+				6463060129EF780300CECD0F /* ZonesView.swift in Sources */,
+				64315F1729F5F9C900D3C4CF /* OutputViewModel.swift in Sources */,
+				646305FF29EF759400CECD0F /* ChartsView.swift in Sources */,
+				6468778029F926960094921C /* SettingsView.swift in Sources */,
+				64D9319229F86CC7005C5FDF /* ShaqView.swift in Sources */,
+				64C39C1929F4CAFC00308FE1 /* PersistenceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		648BC1EB29EE21A200AAA919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		648BC1EC29EE21A200AAA919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		648BC1EE29EE21A200AAA919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"basketball stat tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.auburn.onlinecsse.basketball-stat-tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		648BC1EF29EE21A200AAA919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"basketball stat tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.auburn.onlinecsse.basketball-stat-tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		648BC1DA29EE21A100AAA919 /* Build configuration list for PBXProject "basketball stat tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648BC1EB29EE21A200AAA919 /* Debug */,
+				648BC1EC29EE21A200AAA919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		648BC1ED29EE21A200AAA919 /* Build configuration list for PBXNativeTarget "basketball stat tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648BC1EE29EE21A200AAA919 /* Debug */,
+				648BC1EF29EE21A200AAA919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		64C39C1329F4C8AB00308FE1 /* InputModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				64C39C1429F4C8AB00308FE1 /* InputModel.xcdatamodel */,
+			);
+			currentVersion = 64C39C1429F4C8AB00308FE1 /* InputModel.xcdatamodel */;
+			path = InputModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 648BC1D729EE21A100AAA919 /* Project object */;
+}
